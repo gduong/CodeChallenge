@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4497291CEA66FE7E498B3F9A /* Pods_PassportMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED4040940D6EE7D63EEE733 /* Pods_PassportMobileChallenge.framework */; };
+		6030638E20DA872700D7532B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6030638D20DA872700D7532B /* AppDelegate.swift */; };
+		6030639020DA872700D7532B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6030638F20DA872700D7532B /* MainViewController.swift */; };
+		6030639320DA872800D7532B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6030639120DA872800D7532B /* Main.storyboard */; };
+		6030639520DA872900D7532B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6030639420DA872900D7532B /* Assets.xcassets */; };
+		6030639820DA872900D7532B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6030639620DA872900D7532B /* LaunchScreen.storyboard */; };
+		603063A020DA87BD00D7532B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6030639F20DA87BD00D7532B /* GoogleService-Info.plist */; };
+		603063A520DA8D7800D7532B /* female_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063A120DA8D7800D7532B /* female_normal.png */; };
+		603063A620DA8D7800D7532B /* female_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063A220DA8D7800D7532B /* female_Selected.png */; };
+		603063A720DA8D7800D7532B /* male_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063A320DA8D7800D7532B /* male_Normal.png */; };
+		603063A820DA8D7800D7532B /* male_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063A420DA8D7800D7532B /* male_Selected.png */; };
+		603063AA20DA8E8D00D7532B /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603063A920DA8E8D00D7532B /* ProfileModel.swift */; };
+		603063AF20DA95CD00D7532B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063AD20DA95CC00D7532B /* close@2x.png */; };
+		603063B020DA95CD00D7532B /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063AE20DA95CD00D7532B /* close@3x.png */; };
+		603063B320DA9B4800D7532B /* CustomProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603063B120DA9B4800D7532B /* CustomProfileCell.swift */; };
+		603063B420DA9B4800D7532B /* CustomProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603063B220DA9B4800D7532B /* CustomProfileCell.xib */; };
+		603063B920DAA86400D7532B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603063B820DAA86400D7532B /* ProfileViewController.swift */; };
+		603063BC20DAAC4A00D7532B /* defaultFemaleProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063BA20DAAC4900D7532B /* defaultFemaleProfileImage.png */; };
+		603063BD20DAAC4A00D7532B /* defaultMaleProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063BB20DAAC4900D7532B /* defaultMaleProfileImage.png */; };
+		603063BF20DADC0F00D7532B /* filter_sort_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 603063BE20DADC0F00D7532B /* filter_sort_background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E8C845ED9B594451DD80A2 /* Pods-PassportMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassportMobileChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PassportMobileChallenge/Pods-PassportMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		489CFABC3D1E741FA5181BCC /* Pods-PassportMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassportMobileChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PassportMobileChallenge/Pods-PassportMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6030638A20DA872700D7532B /* PassportMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassportMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6030638D20DA872700D7532B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6030638F20DA872700D7532B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6030639220DA872800D7532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6030639420DA872900D7532B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6030639720DA872900D7532B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6030639920DA872900D7532B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6030639F20DA87BD00D7532B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		603063A120DA8D7800D7532B /* female_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female_normal.png; sourceTree = "<group>"; };
+		603063A220DA8D7800D7532B /* female_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female_Selected.png; sourceTree = "<group>"; };
+		603063A320DA8D7800D7532B /* male_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male_Normal.png; sourceTree = "<group>"; };
+		603063A420DA8D7800D7532B /* male_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male_Selected.png; sourceTree = "<group>"; };
+		603063A920DA8E8D00D7532B /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		603063AD20DA95CC00D7532B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		603063AE20DA95CD00D7532B /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		603063B120DA9B4800D7532B /* CustomProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProfileCell.swift; sourceTree = "<group>"; };
+		603063B220DA9B4800D7532B /* CustomProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomProfileCell.xib; sourceTree = "<group>"; };
+		603063B820DAA86400D7532B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		603063BA20DAAC4900D7532B /* defaultFemaleProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultFemaleProfileImage.png; sourceTree = "<group>"; };
+		603063BB20DAAC4900D7532B /* defaultMaleProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultMaleProfileImage.png; sourceTree = "<group>"; };
+		603063BE20DADC0F00D7532B /* filter_sort_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_sort_background.png; sourceTree = "<group>"; };
+		7ED4040940D6EE7D63EEE733 /* Pods_PassportMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassportMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6030638720DA872700D7532B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4497291CEA66FE7E498B3F9A /* Pods_PassportMobileChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232E54ED1D652FB63D6389B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02E8C845ED9B594451DD80A2 /* Pods-PassportMobileChallenge.debug.xcconfig */,
+				489CFABC3D1E741FA5181BCC /* Pods-PassportMobileChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		357B3E0E400E21B73D15686B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED4040940D6EE7D63EEE733 /* Pods_PassportMobileChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6030638120DA872700D7532B = {
+			isa = PBXGroup;
+			children = (
+				6030638C20DA872700D7532B /* PassportMobileChallenge */,
+				6030638B20DA872700D7532B /* Products */,
+				232E54ED1D652FB63D6389B9 /* Pods */,
+				357B3E0E400E21B73D15686B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6030638B20DA872700D7532B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6030638A20DA872700D7532B /* PassportMobileChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6030638C20DA872700D7532B /* PassportMobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				603063B520DA9DD700D7532B /* Model */,
+				603063B720DA9DF900D7532B /* View */,
+				603063B620DA9DE900D7532B /* Controller */,
+				6030639F20DA87BD00D7532B /* GoogleService-Info.plist */,
+				603063A120DA8D7800D7532B /* female_normal.png */,
+				603063BE20DADC0F00D7532B /* filter_sort_background.png */,
+				603063A220DA8D7800D7532B /* female_Selected.png */,
+				603063A320DA8D7800D7532B /* male_Normal.png */,
+				603063A420DA8D7800D7532B /* male_Selected.png */,
+				603063AD20DA95CC00D7532B /* close@2x.png */,
+				603063AE20DA95CD00D7532B /* close@3x.png */,
+				603063BA20DAAC4900D7532B /* defaultFemaleProfileImage.png */,
+				603063BB20DAAC4900D7532B /* defaultMaleProfileImage.png */,
+				6030639420DA872900D7532B /* Assets.xcassets */,
+				6030639620DA872900D7532B /* LaunchScreen.storyboard */,
+				6030639920DA872900D7532B /* Info.plist */,
+			);
+			path = PassportMobileChallenge;
+			sourceTree = "<group>";
+		};
+		603063B520DA9DD700D7532B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				603063A920DA8E8D00D7532B /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		603063B620DA9DE900D7532B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6030638D20DA872700D7532B /* AppDelegate.swift */,
+				6030638F20DA872700D7532B /* MainViewController.swift */,
+				603063B820DAA86400D7532B /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		603063B720DA9DF900D7532B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6030639120DA872800D7532B /* Main.storyboard */,
+				603063B220DA9B4800D7532B /* CustomProfileCell.xib */,
+				603063B120DA9B4800D7532B /* CustomProfileCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6030638920DA872700D7532B /* PassportMobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6030639C20DA872900D7532B /* Build configuration list for PBXNativeTarget "PassportMobileChallenge" */;
+			buildPhases = (
+				AB90D9DAEA1F0BFC98802CE0 /* [CP] Check Pods Manifest.lock */,
+				6030638620DA872700D7532B /* Sources */,
+				6030638720DA872700D7532B /* Frameworks */,
+				6030638820DA872700D7532B /* Resources */,
+				89A19ACB1328D6475EF82547 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassportMobileChallenge;
+			productName = PassportMobileChallenge;
+			productReference = 6030638A20DA872700D7532B /* PassportMobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6030638220DA872700D7532B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SHC;
+				TargetAttributes = {
+					6030638920DA872700D7532B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6030638520DA872700D7532B /* Build configuration list for PBXProject "PassportMobileChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6030638120DA872700D7532B;
+			productRefGroup = 6030638B20DA872700D7532B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6030638920DA872700D7532B /* PassportMobileChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6030638820DA872700D7532B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603063A720DA8D7800D7532B /* male_Normal.png in Resources */,
+				603063B020DA95CD00D7532B /* close@3x.png in Resources */,
+				603063A620DA8D7800D7532B /* female_Selected.png in Resources */,
+				603063BF20DADC0F00D7532B /* filter_sort_background.png in Resources */,
+				603063BC20DAAC4A00D7532B /* defaultFemaleProfileImage.png in Resources */,
+				603063B420DA9B4800D7532B /* CustomProfileCell.xib in Resources */,
+				6030639820DA872900D7532B /* LaunchScreen.storyboard in Resources */,
+				603063A820DA8D7800D7532B /* male_Selected.png in Resources */,
+				603063A520DA8D7800D7532B /* female_normal.png in Resources */,
+				603063AF20DA95CD00D7532B /* close@2x.png in Resources */,
+				603063A020DA87BD00D7532B /* GoogleService-Info.plist in Resources */,
+				6030639520DA872900D7532B /* Assets.xcassets in Resources */,
+				603063BD20DAAC4A00D7532B /* defaultMaleProfileImage.png in Resources */,
+				6030639320DA872800D7532B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89A19ACB1328D6475EF82547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PassportMobileChallenge/Pods-PassportMobileChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PassportMobileChallenge/Pods-PassportMobileChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB90D9DAEA1F0BFC98802CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassportMobileChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6030638620DA872700D7532B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603063AA20DA8E8D00D7532B /* ProfileModel.swift in Sources */,
+				6030639020DA872700D7532B /* MainViewController.swift in Sources */,
+				603063B920DAA86400D7532B /* ProfileViewController.swift in Sources */,
+				603063B320DA9B4800D7532B /* CustomProfileCell.swift in Sources */,
+				6030638E20DA872700D7532B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6030639120DA872800D7532B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6030639220DA872800D7532B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6030639620DA872900D7532B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6030639720DA872900D7532B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6030639A20DA872900D7532B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6030639B20DA872900D7532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6030639D20DA872900D7532B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E8C845ED9B594451DD80A2 /* Pods-PassportMobileChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXK2N8YN8R;
+				INFOPLIST_FILE = PassportMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SHC.PassportMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6030639E20DA872900D7532B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489CFABC3D1E741FA5181BCC /* Pods-PassportMobileChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXK2N8YN8R;
+				INFOPLIST_FILE = PassportMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SHC.PassportMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6030638520DA872700D7532B /* Build configuration list for PBXProject "PassportMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6030639A20DA872900D7532B /* Debug */,
+				6030639B20DA872900D7532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6030639C20DA872900D7532B /* Build configuration list for PBXNativeTarget "PassportMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6030639D20DA872900D7532B /* Debug */,
+				6030639E20DA872900D7532B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6030638220DA872700D7532B /* Project object */;
+}
